@@ -1,9 +1,8 @@
 import React, {useState} from 'react'
 import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
-import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assets/kannabear.png'
-import Resume from '../assets/CV_Lebenslauf_Dang_Andre(07_2022).pdf'
+
 import {Link} from 'react-scroll' 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -82,7 +81,7 @@ const Navbar = () => {
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0f885a]'>
-                    <a className='flex justify-between items-center w-full text-gray-300 font-bold' href="CV_Lebenslauf_Dang_Andre(07_2022).pdf">
+                    <a className='flex justify-between items-center w-full text-gray-300 font-bold' href="https://lib3ra.github.io/react-portfolio/static/media/CV_Lebenslauf_Dang_Andre(07_2022).e6c47235d1870d448254.pdf" target="_blank">
                         Resume <BsFillPersonLinesFill size={30}/>
                     </a>
                 </li>
