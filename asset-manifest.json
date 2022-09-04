@@ -1,18 +1,17 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.f8536577.css",
-    "main.js": "/react-portfolio/static/js/main.e75a2519.js",
+    "main.js": "/react-portfolio/static/js/main.617487c7.js",
     "static/media/faye.gif": "/react-portfolio/static/media/faye.102c6a5d9fcf7fd07bcc.gif",
-    "static/media/CV_Lebenslauf_Dang_Andre(07_2022).pdf": "/react-portfolio/static/media/CV_Lebenslauf_Dang_Andre(07_2022).e6c47235d1870d448254.pdf",
     "static/media/NitocrisAssAF.png": "/react-portfolio/static/media/NitocrisAssAF.9563d0112500a3e92881.png",
     "static/media/haachama.jpg": "/react-portfolio/static/media/haachama.8c64eafd03fe7c5c49fe.jpg",
     "static/media/kannabear.png": "/react-portfolio/static/media/kannabear.8a73bddfab653cf6672e.png",
     "index.html": "/react-portfolio/index.html",
     "main.f8536577.css.map": "/react-portfolio/static/css/main.f8536577.css.map",
-    "main.e75a2519.js.map": "/react-portfolio/static/js/main.e75a2519.js.map"
+    "main.617487c7.js.map": "/react-portfolio/static/js/main.617487c7.js.map"
   },
   "entrypoints": [
     "static/css/main.f8536577.css",
-    "static/js/main.e75a2519.js"
+    "static/js/main.617487c7.js"
   ]
 }
