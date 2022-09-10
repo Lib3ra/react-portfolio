@@ -1,37 +1,36 @@
 import React, {useState} from 'react'
 import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
-import Logo from '../assets/kannabear.png'
-
+import Logo from '../assets/logo192.png'
 import {Link} from 'react-scroll' 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-8 bg-[#0a192f] text-gray-300'>
-        <div>
-            <img src={Logo} alt="Logo Image" style={{width: '50px'}} />
+    <div className='navbar bg-neutral fixed w-full h-[80px] flex justify-between items-center px-8 text-base-100'>
+        <div class="avatar ">
+            <img class="w-24 rounded-full"src={Logo} alt="Logo Image" style={{width: '60px'}} />
         </div>
         {/* menu */}
         
         <ul className='hidden md:flex'>
-            <li>
+            <li class= "btn btn-ghost normal-case text-xl ">
                 <Link to="home" smooth={true} duration={500}>
                 Home
                 </Link>
             </li>
-            <li>
+            <li class= "btn btn-ghost normal-case text-xl">
                 <Link to="about" smooth={true} duration={500}>
                 About
                 </Link>
             </li>
-            <li>
+            <li class= "btn btn-ghost normal-case text-xl">
                 <Link to="skills" smooth={true} duration={500}>
                 Skills
                 </Link>
             </li>
-            <li>
+            <li class= "btn btn-ghost normal-case text-xl">
                 <Link to="work" smooth={true} duration={500}>
                 Work
                 </Link>
@@ -44,7 +43,7 @@ const Navbar = () => {
         </div>
 
         {/* mobile menu */}
-        <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
+        <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-neutral flex flex-col justify-center items-center text-base-100'}>
             <li className='py-6 text-4xl'>
                 <Link onClick={handleClick} to="home" smooth={true} duration={500}>
                 Home

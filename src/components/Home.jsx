@@ -3,11 +3,11 @@ import {HiArrowNarrowRight} from 'react-icons/hi'
 import {Link} from 'react-scroll' 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-screen bg-[#0a192f]'>
+    <div name='home' className='w-full h-screen bg-base-100'>
         {/* container */}
-        <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full text-pink-200'>
+        <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full text-neutral'>
             <p>Hi, <br></br> my name is</p>
-            <h1 className='text-4xl sm:text-7xl font-bold'>Andre Dang</h1>
+            <h1 className='text-4xl sm:text-7xl font-bold'>André Dang</h1>
             <h2>I'm an aspiring software developer</h2>
             <p className='py-4 max-w-[700px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
@@ -15,7 +15,7 @@ const Home = () => {
             in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
             occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <div>
-            <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-200 hover:border-pink-200'>
+            <button class= "btn btn-primary group w-64 rounded-full">
                 <Link to="work" smooth={true} duration={500}>
                 View work
                 </Link> 
