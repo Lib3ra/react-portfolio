@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.f8536577.css",
-    "main.js": "/react-portfolio/static/js/main.90fb2c77.js",
-    "static/media/faye.gif": "/react-portfolio/static/media/faye.102c6a5d9fcf7fd07bcc.gif",
-    "static/media/NitocrisAssAF.png": "/react-portfolio/static/media/NitocrisAssAF.9563d0112500a3e92881.png",
-    "static/media/haachama.jpg": "/react-portfolio/static/media/haachama.8c64eafd03fe7c5c49fe.jpg",
-    "static/media/kannabear.png": "/react-portfolio/static/media/kannabear.8a73bddfab653cf6672e.png",
+    "main.css": "/react-portfolio/static/css/main.54acc90c.css",
+    "main.js": "/react-portfolio/static/js/main.5deb696e.js",
+    "static/media/react_icon.png": "/react-portfolio/static/media/react_icon.ccbd9d34a638b8556e62.png",
+    "static/media/cypress_icon.png": "/react-portfolio/static/media/cypress_icon.fda349cd1f06e6f00931.png",
+    "static/media/python_icon1.png": "/react-portfolio/static/media/python_icon1.82ab0bdb7e21c02fbe36.png",
+    "static/media/kotlin_icon.png": "/react-portfolio/static/media/kotlin_icon.597217eaeae26a39e79f.png",
+    "static/media/logo192.png": "/react-portfolio/static/media/logo192.d1a5d77055fcc673df6b.png",
+    "static/media/jira_icon.png": "/react-portfolio/static/media/jira_icon.3b02b7c711761f33b1f9.png",
     "index.html": "/react-portfolio/index.html",
-    "main.f8536577.css.map": "/react-portfolio/static/css/main.f8536577.css.map",
-    "main.90fb2c77.js.map": "/react-portfolio/static/js/main.90fb2c77.js.map"
+    "main.54acc90c.css.map": "/react-portfolio/static/css/main.54acc90c.css.map",
+    "main.5deb696e.js.map": "/react-portfolio/static/js/main.5deb696e.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8536577.css",
-    "static/js/main.90fb2c77.js"
+    "static/css/main.54acc90c.css",
+    "static/js/main.5deb696e.js"
   ]
 }
