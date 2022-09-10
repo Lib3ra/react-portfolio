@@ -81,7 +81,7 @@ const Navbar = () => {
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0f885a]'>
-                    <a className='flex justify-between items-center w-full text-gray-300 font-bold' href="/CV_Lebenslauf_Dang_Andre(07_2022).pdf" target="_blank">
+                    <a className='flex justify-between items-center w-full text-gray-300 font-bold' href="/react-portfolio/CV_Lebenslauf_Dang_Andre(07_2022).pdf" target="_blank">
                         Resume <BsFillPersonLinesFill size={30}/>
                     </a>
                 </li>
