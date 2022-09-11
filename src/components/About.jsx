@@ -13,13 +13,11 @@ const About = () => {
             </div>
             <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-8'>
                 <div className='text-left text-4xl font-bold'>
-                    <p>Hi. I'm André, nice to meet you. Please take a look around</p> 
+                    <p>Welcome to my portfolio! Feel free to take a look around. Cheers!</p> 
                 </div>
                 <div className='text-right'>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
-                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    <p>I started out as a QA Engineer doing manual and automated tests, as well as test management. 
+                        However, with my background in computer science, I also want to develop software without compromising on quality.
                     </p>
                 </div>
             </div>
